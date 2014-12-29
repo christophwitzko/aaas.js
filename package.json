@@ -1,0 +1,33 @@
+{
+  "name": "aaas.js",
+  "version": "1.0.0",
+  "description": "array as a service javascript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophwitzko/aaas.js.git"
+  },
+  "keywords": [
+    "aaas",
+    "array"
+  ],
+  "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophwitzko/aaas.js/issues"
+  },
+  "homepage": "https://github.com/christophwitzko/aaas.js",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.0.2"
+  },
+  "browser": {
+    "request": "browser-request"
+  }
+}
