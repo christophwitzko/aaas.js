@@ -4,7 +4,7 @@
   "description": "array as a service javascript library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
     "request": "^2.51.0"
   },
   "devDependencies": {
-    "browserify": "^8.0.2"
+    "browserify": "^8.0.2",
+    "standard": "*"
   },
   "browser": {
     "request": "browser-request"
